@@ -23,7 +23,7 @@ const Cart = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/v1/order", {
+      const response = await axios.post("https://fsbackendd-production.up.railway.app/api/v1/order", {
         amount: totalPrice * 100, // Amount is in paisa
         currency: "INR",
         receipt: "qwsaq1",
@@ -50,7 +50,7 @@ const Cart = () => {
           };
 
           const validateRes = await axios.post(
-            "http://localhost:5000/api/v1/order/validate",
+            "https://fsbackendd-production.up.railway.app/api/v1/order/validate",
             body,
             {
               headers: {
@@ -89,7 +89,7 @@ const Cart = () => {
           console.error('Token not found in local storage');
           return;
         }
-        const response = await axios.get('http://localhost:5000/api/v1/items', {
+        const response = await axios.get('https://fsbackendd-production.up.railway.app/api/v1/items', {
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -112,7 +112,7 @@ const Cart = () => {
         console.error('Token not found in local storage');
         return;
       }
-      await axios.delete(`http://localhost:5000/api/v1/items/${id}`, {
+      await axios.delete(`https://fsbackendd-production.up.railway.app/api/v1/items/${id}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

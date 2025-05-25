@@ -21,7 +21,7 @@ const ArtFullDetails = ({ arts }) => {
         return;
       }
 
-      await axios.post('http://localhost:5000/api/v1/items', { ...art }, {
+      await axios.post('https://fsbackendd-production.up.railway.app/api/v1/items', { ...art }, {
         headers: {
           'Authorization': `Bearer ${token}`
         }
