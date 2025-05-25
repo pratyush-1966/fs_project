@@ -1,0 +1,68 @@
+{
+  "status": "ok",
+  "Arts": [
+    {
+      "id": 1,
+      "title": "Beach Scenery",
+      "description": "The ocean stirs the heart, inspires the imagination and brings eternal joy to the soul.",
+      "urlToImage": "https://th.bing.com/th/id/OIP.a06jym5wuSrJms8ULwwNWwHaEo?rs=1&pid=ImgDetMain",
+      "price": "169"
+    },
+    {
+      "id": 2,
+      "title": "Mountain View",
+      "description": "Experience the breathtaking beauty of towering mountains and serene landscapes.",
+      "urlToImage": "https://th.bing.com/th/id/OIP.9t29f1EZYaKPBy9cHQbliQHaEo?w=282&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "price": "769"
+    },
+    {
+      "id": 3,
+      "title": "Sunset Reflection",
+      "description": "A mesmerizing sunset reflecting on calm waters, creating a picturesque scene.",
+      "urlToImage": "https://i.pinimg.com/originals/f1/f2/ed/f1f2ed3bc3a1a8baa6fa4fc838ded94d.jpg",
+      "price": "369"
+    },
+    {
+      "id": 4,
+      "title": "Forest Adventure",
+      "description": "Explore the enchanting beauty of dense forests and discover hidden wonders.",
+      "urlToImage": "https://webneel.com/daily/sites/default/files/images/daily/02-2016/13-forest-digital-art-painting-by-mark-fredrickson.jpg",
+      "price": "469"
+    },
+    {
+      "id": 5,
+      "title": "City Lights",
+      "description": "Experience the vibrant energy of city lights and urban landscapes.",
+      "urlToImage": "https://i.pinimg.com/originals/69/bd/2e/69bd2e38e08596cc49134a7c46317b65.jpg",
+      "price": "969"
+    },
+    {
+      "id": 6,
+      "title": "Mystical Mountains",
+      "description": "Embark on a journey through mystical mountains, where beauty meets tranquility.",
+      "urlToImage": "https://i.pinimg.com/originals/f1/63/1e/f1631e37e4010624d7fbd60f21f0d6d5.jpg",
+      "price": "569"
+    },
+    {
+      "id": 7,
+      "title": "Rural Countryside",
+      "description": "Escape to the peaceful charm of rural countryside, where rolling hills and open fields offer solace from the bustle of city life.",
+      "urlToImage": "https://th.bing.com/th/id/OIP.tXIyXTZLOQr49Kz9caMTTAHaEo?rs=1&pid=ImgDetMain",
+      "price": "269"
+    },
+    {
+      "id": 8,
+      "title": "Waterfall Oasis",
+      "description": "Discover the serenity of a hidden waterfall oasis, where cascading waters and lush greenery create a paradise retreat.",
+      "urlToImage": "https://th.bing.com/th/id/OIP.i5Z--5Rg3TxLxvTbDQsfsgHaHU?w=234&h=220&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "price": "569"
+    },
+    {
+      "id": 9,
+      "title": "Aurora Borealis",
+      "description": "Witness the awe-inspiring beauty of the Northern Lights as they dance across the night sky, painting it with vibrant colors.",
+      "urlToImage": "https://i.etsystatic.com/21069539/r/il/e99a54/2748860257/il_fullxfull.2748860257_qdrj.jpg",
+      "price": "869"
+    }
+  ]
+}
